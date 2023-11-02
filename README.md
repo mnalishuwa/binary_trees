@@ -52,3 +52,13 @@ A **Binary Tree** is a tree ADT where each node has at most two children, and th
 > binary_tree_leaves - counts the leaves in a binary tree
 14. 13-binary_tree_nodes.c
 > binary_tree_leaves - counts the leaves in a binary tree
+15. 14-binary_tree_balance.c
+> binary_tree_balance - measures the balance factor of a binary tree node
+16. 15-binary_tree_is_full.c
+> checks if every node in the tree has 0 or two children
+17. 16-binary_tree_is_perfect.c
+> checks if tree is a full binary tree with a balance factor of 0 on all nodes
+18. 17-binary_tree_sibling.c
+> finds the node sharing the same parent with the argument node, if it exists
+19. 18-binary_tree_uncle.c
+> finds the node's parent's sibling if it exists
