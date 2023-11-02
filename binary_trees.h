@@ -30,6 +30,10 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+binary_tree_t *binary_tree_up_gen(binary_tree_t *node,
+				  const binary_tree_t *relative, int n);
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+				     const binary_tree_t *second);
 int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
